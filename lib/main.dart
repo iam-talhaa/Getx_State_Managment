@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_statemangment/changeTheme.dart';
+import 'package:getx_statemangment/Counter_example.dart';
 import 'package:getx_statemangment/homescree.dart';
-import 'package:getx_statemangment/silani.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,9 +17,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StackExample(),
+      home: CounterExample(),
     );
   }
 }
