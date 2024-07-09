@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_statemangment/Counter_example.dart';
+import 'package:getx_statemangment/Image_picker.dart';
 import 'package:getx_statemangment/SliderExample.dart';
-import 'package:getx_statemangment/homescree.dart';
+import 'package:getx_statemangment/switchExample.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SliderExample(),
+      home: SwitchExample(),
     );
   }
 }
