@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:getx_statemangment/FavouriteExample.dart';
 import 'package:getx_statemangment/Image_picker.dart';
 import 'package:getx_statemangment/SliderExample.dart';
+import 'package:getx_statemangment/login/Getx.dart';
 import 'package:getx_statemangment/switchExample.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Fav_Example(),
+      home: Login_Getx(),
     );
   }
 }
