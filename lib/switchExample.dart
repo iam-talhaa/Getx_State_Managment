@@ -16,9 +16,14 @@ class _SwitchExampleState extends State<SwitchExample> {
   Widget build(BuildContext context) {
     print("Switch TEXTING");
     return Scaffold(
+      appBar: AppBar(
+          title: Text('Switch Example  Get X'),
+          centerTitle: true,
+          backgroundColor: Colors.blue[200]),
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 15),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
               height: 30,

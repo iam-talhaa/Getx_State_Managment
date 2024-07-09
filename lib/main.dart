@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_statemangment/FavouriteExample.dart';
 import 'package:getx_statemangment/Image_picker.dart';
 import 'package:getx_statemangment/SliderExample.dart';
 import 'package:getx_statemangment/switchExample.dart';
@@ -20,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SwitchExample(),
+      home: Fav_Example(),
     );
   }
 }
